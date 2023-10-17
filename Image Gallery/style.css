@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+body {
+    font-family: 'Autour One', 'cursive';
+    text-align: center;
+    margin: 20px;
+    background-color:#109cbbe4 ;
+}
+
+h1 {
+    color: #fff;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+ button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #022a48;
+    background-color: #095769e4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+
+
+
+}
+
+.image {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #0f0303;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+   
+}
+
+.image img {
+    position: relative;
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
